@@ -1,4 +1,4 @@
-# tp2-app
+# Todo
 
 ## Project setup
 ```

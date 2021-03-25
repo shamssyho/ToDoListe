@@ -3,7 +3,7 @@
         <header class="header">
             <h1>Voici ma liste de taches <span class="btn btn-outline-primary">Todo</span></h1>
             <br>
-            <label for="text">Ajouter une tache</label> <!-- <input type="text" class="todo">  -->
+            <label for="text">Ajouter une tache</label>
             
             <div class="input-group mb-3">
                 <button class="btn btn-outline-secondary" type="button" @click="addTodo">Add</button>
@@ -11,7 +11,6 @@
             </div>
         </header>
         
-        <!-- <ul class="list-group" v-for="todo in todos" :key="todo.name"> <li class="list-group-item" v-on:remove="todos.splice(index, 0)"> {{todo.name}}</li>  <div> --> <!-- <label class="list-group-item">{{todo.name}}</label> --> <!-- <li class="list-group-item"> {{todo.name}}</li> --> <!-- </div> --> <!-- <input v-if="completed" type="checkbox" id="scales" checked> --> <!-- </ul> -->
 
         <div class="form-check" v-for="todo in todos" :key="todo.name">
 

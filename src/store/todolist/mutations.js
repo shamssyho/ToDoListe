@@ -3,28 +3,3 @@ export function load(state, data) {
     state.properties = data
 }
 
-// COMMENT
-// COMMENT// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT

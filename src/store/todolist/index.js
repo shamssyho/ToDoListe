@@ -10,18 +10,3 @@ export default {
   state
 }
 
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT

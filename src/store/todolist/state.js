@@ -3,31 +3,3 @@ export default function () {
         properties: null
     }
 }
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT
-// COMMENT

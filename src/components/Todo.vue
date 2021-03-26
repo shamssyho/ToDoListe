@@ -1,9 +1,12 @@
 <template>
+
+
     <section class="todoapp">
         <header class="header">
-            <h1>Voici ma liste de taches <span class="btn btn-outline-primary">Todo</span></h1>
+            <h1 class="display-1">Voici ma liste de taches <span class="btn btn-outline-primary">Todo</span></h1>
             <br>
-            <label for="text">Ajouter une tache</label>
+            <h2 class="ajoutTache" for="text">Ajouter une tache</h2>
+            <br>
             
             <div class="input-group mb-3">
                 <button class="btn btn-outline-secondary" type="button" @click="addTodo">Add</button>
@@ -13,33 +16,37 @@
         
 
         <div class="form-check" v-for="todo in todos" :key="todo.name">
-
-
-
-            
-            <label class="form-check-label" for="flexCheckDefault">{{todo.nameParDefaut}}</label>
-            <input class="form-check-input" type="checkbox" id="flexCheckDefault" v-model="todo.completed" checked >
-            <strike v-if="todo.completed==true">{{todo.name}}</strike>
-            <label class="form-check-label" for="flexCheckDefault" v-if="todo.completed == false">{{todo.name}}</label>
-            <button class="btn btn-primary me-md-2" @click=supprimerTodo>X</button>
-             
            
+            <strike class="form-check-label" for="flexCheckDefault">{{todo.nameParDefaut}}</strike>
+            <input class="form-check-input" type="checkbox" id="flexCheckDefault" v-model="todo.completed" checked >
+            <strike class="str" v-if="todo.completed==true">{{todo.name}}</strike>
+            <label class="form-check-label" for="flexCheckDefault" v-if="todo.completed == false">{{todo.name}}</label>
+            <button class="badge bg-primary" @click=supprimerTodo>X</button>
+             
         </div>
         
         
     </section>
 </template>
 
+
+
+
+
+
+
+
 <script>
 // import { mapActions } from 'vuex';
 
 export default {
+    name:"Todo",
     data(){
         return{
             todos:[{
                 nameParDefaut:'Déjà Faite',
                 name: '',
-                completed: false
+                completed: true
             }],
             newTodo:''
         }
@@ -62,7 +69,23 @@ export default {
 
 }
 </script>
-<style src="./todo.css"></style>
+
+
+
+
+
+<style>@import './todo.css';</style>
+
+
+
+
+
+
+
+
+
+
+
 // Source :
 /* 
 - Cours et tp 
@@ -71,4 +94,5 @@ export default {
 - https://www.youtube.com/watch?v=5sNXjRE1C-U
 - w3school
 - https://stackoverflow.com/questions/35459010/vuejs-remove-element-from-lists
+- https://getbootstrap.com/
 */
